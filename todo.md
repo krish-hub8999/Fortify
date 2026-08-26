@@ -1,0 +1,44 @@
+# Full-Stack Persistence and File Storage Update
+
+- [x] Upgrade the project to the managed full-stack foundation with authentication, database, and file storage.
+- [x] Define a minimal persisted data model that excludes raw password values and sensitive password-derived content.
+- [x] Add user-controlled preference persistence for the selected analysis model.
+- [x] Add a managed file-storage workflow for explicitly selected non-sensitive exports only.
+- [x] Verify access controls, persistence behavior, and that password input remains transient.
+- [x] Build, test, and document the full-stack revision.
+- [x] Add protected-route tests for preference persistence and sanitized report export behavior.
+- [x] Redesign the interface with an eye-comfortable cyan visual system and clearer calibration hierarchy.
+- [x] Replace the current shield asset with an attractive cyan brand icon and apply it consistently.
+- [x] Verify the revised experience on realistic extension and mobile-sized viewports.
+- [x] Package the completed product as a Chrome Manifest V3 extension connected to the hosted backend.
+- [x] Validate the extension archive and prepare Chrome Web Store submission instructions.
+- [x] Add accessible 3D depth, dimensional icon treatment, and motion interactions to the cyan theme.
+- [x] Verify the redesigned full-stack interface at a phone-width viewport and correct any layout issues.
+- [x] Add and verify a direct extension-to-hosted-backend preference and sanitized-report integration path.
+- [x] Add authenticated automated coverage for extension bridge preference and sanitized-report persistence routes.
+- [ ] Perform authenticated packaged-extension verification against the published companion service after publication.
+- [x] Add organic ambient motion, animated reading transitions, and responsive depth details across the cyan interface and extension popup.
+- [x] Assess supported Google and email sign-in options without weakening the existing authentication model.
+- [x] Add phone-installable web-app support and document mobile installation.
+- [x] Design a client-side-encrypted vault data model that excludes plaintext passwords from database storage.
+- [ ] Implement and test the available secure authentication, encrypted-vault, mobile-installation, and extension flows.
+- [x] Add cinematic cyan light sweeps, liquid-glass reveals, and expressive but accessible interaction transitions.
+- [ ] Perform an authenticated browser check of vault unlock, encrypted save, reload, and local decryption while confirming the database contains only ciphertext metadata.
+- [x] Verify service-worker registration and install guidance in a production-like supported mobile context.
+- [ ] Trigger the production-like mobile Install app action and verify its prompt or iPhone/iPad fallback guidance outcome.
+- [ ] Document the verified mobile install-button outcome after service-worker activation.
+- [x] Audit and refresh the downloadable Chrome extension archive for Web Store upload.
+- [x] Prepare the final Chrome Web Store listing and submission checklist for the owner.
+- [x] Add and validate an accessible animated opening sequence for the extension popup.
+- [x] Add richer cyan visual depth, luminous motion accents, and more expressive interactive transitions across the companion app and extension.
+- [x] Create a shareable public download hub with Android, iPhone/iPad, and Chrome extension installation paths.
+- [x] Add a hosted download link for the Chrome extension archive and clearly distinguish it from future Chrome Web Store installation.
+- [x] Validate the public download hub on mobile-sized and desktop views before release.
+- [x] Add an explicit numeric strength scale with transparent local estimate details.
+- [x] Add multiple locally generated strong-password alternatives with one-click copy actions.
+- [x] Test the improved result panel, alternative generation, and no-transmission privacy boundary.
+- [x] Add the explicit numeric strength score and transparent estimate details to the packaged Chrome extension popup.
+- [x] Add three locally generated strong alternatives with individual copy actions to the packaged Chrome extension popup.
+- [x] Retest the hosted app and packaged extension score and alternative flows for local-only behavior.
+- [ ] Upload the complete website source project to the selected GitHub repository without dependencies, builds, logs, or secrets.
+- [ ] Remove the existing duplicate ZIP archive from the selected GitHub repository.

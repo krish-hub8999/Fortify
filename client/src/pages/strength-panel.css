@@ -1,0 +1,64 @@
+.strength-score {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-top: 9px;
+  padding: 5px 7px;
+  border: 1px solid rgba(193,247,249,.32);
+  background: rgba(3,34,48,.2);
+}
+
+.strength-score b { color: #89edf1; font: 800 17px/.8 "DM Mono", ui-monospace, monospace; }
+.strength-score small { color: #dbf8f9; font: 700 8px/1 "DM Mono", ui-monospace, monospace; letter-spacing: .04em; text-transform: uppercase; }
+
+.alternatives-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+  border-top: 1px solid #b8e1e5;
+  background: linear-gradient(145deg, rgba(243,253,254,.98), rgba(224,248,250,.94));
+  transform: translateZ(10px);
+}
+
+.alternatives-panel::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  height: 200px;
+  right: -118px;
+  top: -138px;
+  border: 1px solid rgba(20,184,196,.18);
+  border-radius: 50%;
+  box-shadow: 0 0 0 18px rgba(20,184,196,.03);
+}
+
+.alternatives-intro { margin: 0; color: #466875; font-size: 10px; line-height: 1.55; }
+.alternative-list { display: grid; gap: 7px; margin-top: 12px; }
+
+.alternative-row {
+  display: grid;
+  grid-template-columns: 19px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #b8e1e5;
+  border-left: 3px solid #14b8c4;
+  background: rgba(255,255,255,.83);
+  box-shadow: 3px 3px 0 rgba(20,184,196,.07);
+}
+
+.alternative-row > span { color: #50818d; font: 700 8px/1 "DM Mono", ui-monospace, monospace; }
+.alternative-row code { min-width: 0; overflow: hidden; color: #153c52; font: 600 10px/1.2 "DM Mono", ui-monospace, monospace; text-overflow: ellipsis; white-space: nowrap; }
+.alternative-row button, .refresh-alternatives { display: inline-flex; align-items: center; gap: 4px; border: 1px solid #0f9dac; border-radius: 5px; color: #0f6f7e; background: #ecfbfb; font: 800 9px/1 "Manrope", sans-serif; }
+.alternative-row button { padding: 7px; }
+.refresh-alternatives { margin-top: 10px; padding: 8px 9px; }
+.alternative-row button:hover, .refresh-alternatives:hover { background: #d9f7f8; transform: translateY(-1px); }
+.alternative-row button:active, .refresh-alternatives:active { transform: scale(.97); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .alternative-row { animation: alternative-arrival .3s cubic-bezier(.16,1,.3,1) both; }
+  .alternative-row:nth-child(2) { animation-delay: .06s; }
+  .alternative-row:nth-child(3) { animation-delay: .12s; }
+  @keyframes alternative-arrival { from { opacity: 0; transform: translate3d(0,7px,0) rotateX(-2deg); } to { opacity: 1; transform: translate3d(0,0,0) rotateX(0); } }
+}

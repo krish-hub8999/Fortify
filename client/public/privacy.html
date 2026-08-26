@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0F6F7E" />
+    <title>Fortify Privacy Policy</title>
+    <style>
+      :root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; color: #0f2940; background: #f2fbfc; }
+      body { max-width: 760px; margin: 0 auto; padding: 48px 24px 72px; line-height: 1.65; }
+      h1, h2 { font-family: Georgia, serif; letter-spacing: -.03em; } h1 { font-size: clamp(2rem, 8vw, 3.2rem); margin: 0 0 10px; } h2 { margin-top: 32px; }
+      .eyebrow { color: #0f9dac; font: 800 .75rem ui-monospace, monospace; letter-spacing: .1em; } .card { padding: 18px; border-left: 3px solid #14b8c4; background: rgba(255,255,255,.78); box-shadow: 0 8px 20px rgba(15,41,64,.07); }
+      a { color: #0f6f7e; } ul { padding-left: 20px; }
+    </style>
+  </head>
+  <body>
+    <p class="eyebrow">FORTIFY FIELD NOTES</p>
+    <h1>Privacy Policy</h1>
+    <p>Fortify is designed to analyze passwords locally. This policy covers the Fortify web app and the Fortify Lens Chrome extension.</p>
+    <section class="card"><strong>Plain-language summary.</strong> Passwords typed into the extension or strength checker are analyzed locally and are not transmitted or stored. The extension stores only a user-selected companion-site URL in Chrome storage. Any connection to the companion app is initiated by the user.</section>
+    <h2>Information handled</h2>
+    <ul>
+      <li>The extension processes entered password text locally to calculate a strength result. It does not send that password to Fortify or another party.</li>
+      <li>Chrome storage retains the user-configured Fortify companion URL so the extension can open or, after the user grants optional access, communicate with that chosen site.</li>
+      <li>If a signed-in user explicitly saves a sanitized assessment, the companion app receives only the attacker model, strength label, score, and entropy estimate. The password and pattern details are excluded.</li>
+      <li>The optional Fortify vault stores browser-encrypted ciphertext, IV, salt, and encryption-version marker. The vault passphrase and decrypted entry contents are not sent to the service.</li>
+    </ul>
+    <h2>Use and sharing</h2>
+    <p>Fortify uses handled data only to provide the described password analysis, companion-account, sanitized-report, and encrypted-vault features. Fortify does not sell data, use it for advertising, or collect browsing history. It does not permit human review of password content.</p>
+    <h2>Security and user choice</h2>
+    <p>Companion connections use HTTPS. The Chrome extension asks for optional access only after the user chooses a published Fortify companion address. Users may remove the extension, revoke its site access, or delete their own saved companion records. Encrypted vault entries cannot be recovered if a user loses the local vault passphrase.</p>
+    <h2>Contact and changes</h2>
+    <p>Questions about Fortify privacy can be sent to the contact address shown on the Chrome Web Store listing. This policy will be updated when data practices change.</p>
+    <p><em>Last updated: August 26, 2026.</em></p>
+  </body>
+</html>

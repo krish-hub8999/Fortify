@@ -1,0 +1,17 @@
+{
+  "name": "Fortify Field Notes",
+  "short_name": "Fortify",
+  "description": "A private password-strength field guide with an encrypted personal vault.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2FBFC",
+  "theme_color": "#0F6F7E",
+  "icons": [
+    {
+      "src": "/manus-storage/fortify-lagoon-lens-shield_b5c4217e.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

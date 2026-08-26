@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Fortify Field Notes",
+  "version": "1.0.0",
+  "description": "A private, local password-strength field guide with transparent crack-time estimates.",
+  "action": {
+    "default_title": "Fortify Field Notes",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data: https:"
+  }
+}
