@@ -40,5 +40,5 @@
 - [x] Add the explicit numeric strength score and transparent estimate details to the packaged Chrome extension popup.
 - [x] Add three locally generated strong alternatives with individual copy actions to the packaged Chrome extension popup.
 - [x] Retest the hosted app and packaged extension score and alternative flows for local-only behavior.
-- [ ] Upload the complete website source project to the selected GitHub repository without dependencies, builds, logs, or secrets.
-- [ ] Remove the existing duplicate ZIP archive from the selected GitHub repository.
+- [x] Upload the complete website source project to the selected GitHub repository without dependencies, builds, logs, or secrets.
+- [x] Remove the existing duplicate ZIP archive from the selected GitHub repository.
